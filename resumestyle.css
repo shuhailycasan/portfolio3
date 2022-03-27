@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color:#1a1a1a; 
+}
+.wrapper{
+    width: 1170px;
+    margin:auto;
+}
+header{
+    height: 90px;
+    background: black;
+    width: 100%;
+    z-index: 12;
+}
+.logo{
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo a{
+    font-weight: 650;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: "Poppins" ,sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.nav-area{
+   margin: auto;
+}
+.nav-area li{
+    padding: 30px;
+    padding-top: 35px;
+    float: right;
+    list-style-type: none;
+}
+.nav-area li a{
+    font-weight: 550;
+    font-size: 18px;
+    position: relative;
+    font-family: "Poppins" ,sans-serif;
+    color: #a0a0a0;
+    text-decoration: none;
+    padding:0 10px;
+    
+}
+.nav-area li a:after{
+    content: "";
+    position: absolute;
+    background-color: #dc3545;
+    height: 3px;
+    width: 10%;
+    left: 7;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.nav-area li a:hover:after{
+    width: 50%;
+}
+
+.box{
+    width: 1150px;
+    padding:41px;
+    height: auto;
+    margin: auto;
+    color: white;
+    background: black;
+    top: 15px;
+    position: relative;
+}
+.edu{
+    border-left: 2px solid #a0a0a0;
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-left: 5px; 
+    margin-left: 7px;
+}
+
+.box i{
+    color: #dc3534;
+}
+h4{
+    font-family: "Poppins" ,sans-serif;
+    line-height: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+h3{
+    letter-spacing: 3px;
+    font-family: "Poppins" ,sans-serif;
+    color: #a0a0a0;
+}
+p{
+    font-size: 20px;
+    font-family: "Poppins" ,sans-serif;
+
+}
+.education{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins" ,sans-serif;
+}
+.year{
+    font-size: 15px;
+    font-family: "Poppins" ,sans-serif;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 80px;
+    padding: 10px;
+    font-weight: 700;
+}
+.school{
+    font-size: 18px;
+    font-family: "Poppins" ,sans-serif;
+    padding: 5px 0 0 0;
+    color: #a0a0a0;
+    font-style: italic;
+}
+h1{
+    font-family: "Poppins" ,sans-serif;
+    line-height: 1.7;
+}
+
+.row{
+  column-count: 2;
+  column-gap: 40px;
+}
